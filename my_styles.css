@@ -99,9 +99,10 @@ list-style: none;
 
 @media (max-width: 480px) {
   .carousel-wrapper{
-    width:70%;
-    height:150px;
-    margin-left: 50px; /* !cambiato! */
+    width:85%;
+    height:300px;
+    margin-left: 30px; /* !cambiato! */
+  margin-top: 20%;
   }
 }
 
@@ -139,6 +140,11 @@ list-style: none;
   top:50%;
   transform:translateY(-50%) rotate(135deg);
 }
+
+@media (max-width: 480px) {
+  .arrow-prev{
+    left: -20px;
+  }
  
 .arrow-next{
     right:-30px;
@@ -146,6 +152,12 @@ list-style: none;
   top:50%;
   transform:translateY(-50%) rotate(-45deg);
   }
+
+  @media (max-width: 480px) {
+    .arrow-next{
+      right:-20px;
+    }
+
 
 .light{
   color:white;
@@ -327,7 +339,7 @@ list-style: none;
 
   @media (max-width: 480px) {
     .carousel-caption {
-  padding-top: 150px;
+  padding-top: 120%;
 
     }
   }
