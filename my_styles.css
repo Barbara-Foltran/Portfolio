@@ -1,4 +1,4 @@
-html,body,.container
+html,body
 { 
   height: 100%; margin: 0; padding: 0; 
 }
@@ -12,12 +12,7 @@ html,body,.container
 
 body { 
   background:#f7f7f7;
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  display: flex;
-        min-height: 100vh;
-        flex-direction: column;
+
 }
 
 .site-content {
@@ -125,6 +120,16 @@ list-style: none;
 }
 
 
+/* aggiunto questo media! */
+@media (max-width: 480px) {
+  .carousel-item{
+      height: 100%;
+      width: 100%;
+      position: center;
+      display: inherit;
+  }}
+
+
 
 .arrow{
   border: solid black;
@@ -134,14 +139,14 @@ list-style: none;
 }
 
 .arrow-prev{
-  left:-30px;
+  left:-20px;
   position:absolute;
   top:50%;
   transform:translateY(-50%) rotate(135deg);
 }
  
 .arrow-next{
-    right:-30px;
+    right:-20px;
   position:absolute;
   top:50%;
   transform:translateY(-50%) rotate(-45deg);
