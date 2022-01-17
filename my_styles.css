@@ -362,8 +362,8 @@ list-style: none;
  
   @media (max-width: 768px) {
     .site-footer {
-      margin-top: 280px;
-      position: bottom;
+      margin-top: 250px;
+padding: 0px;
       
     }
   }
