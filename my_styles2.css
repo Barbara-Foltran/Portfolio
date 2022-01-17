@@ -110,21 +110,12 @@ list-style: none;
   }
 
 
-  @media (max-width: 1000px) {
-    .textino {
-      width:100%;
-        margin-left: 0px;
-        margin-right: 0px;
-      
-    }
-  }
-
-  /*@media (max-width: 480px) {
+  @media (max-width: 480px) {
     .textino {
         margin-left: 10px;
         margin-right: 0px;
     }
-  }*/
+  }
  
   /* spazio tra frasi*/
 
@@ -134,8 +125,8 @@ list-style: none;
 
 
   .site-footer {
-    bottom: auto;
-    margin-top: 150px;
+    bottom: 0;
+    margin-top: 20px;
     position: bottom;
     left: 0;
     width:100%;
