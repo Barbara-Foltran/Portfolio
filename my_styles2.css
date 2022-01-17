@@ -125,8 +125,8 @@ list-style: none;
 
 
   .site-footer {
-    bottom: 0;
-    margin-top: 20px;
+    bottom: auto;
+    /*margin-top: 50px;*/
     position: bottom;
     left: 0;
     width:100%;
