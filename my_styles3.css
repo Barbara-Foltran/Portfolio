@@ -130,8 +130,8 @@ a:hover, a:active {
 
 
 .site-footer {
-    bottom: 0;
-    margin-top: 220px;
+    bottom: auto;
+    margin-top: 245px; 
     position: bottom;
     left: 0;
     width:100%;
