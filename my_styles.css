@@ -1,6 +1,6 @@
 html,body,.container
 { 
-  height: 100%; margin: 0; padding: 0; 
+  height: 100%; margin: 0; padding: 0; position: relative;
 }
 
 
@@ -23,8 +23,6 @@ body {
 .site-content {
     flex: 1;
   }
-
-
 
 .main-content {
   flex: 1;
@@ -74,6 +72,7 @@ list-style: none;
 
 
 
+
 .profilecontact
 {
   font-family: 'Andada Pro', serif;
@@ -88,7 +87,8 @@ list-style: none;
 /*qui comincia il carosello */
 
 
-.carousel-wrapper{
+.carousel-wrapper
+{
   height:550px; 
   position:relative;
   width:80%;
@@ -116,9 +116,6 @@ list-style: none;
   padding:25px 50px;
   opacity:0;
   transition: all 0.5s ease-in-out;
-}
-
- {
   max-width: 100%;
   height: auto;
   display: block;
