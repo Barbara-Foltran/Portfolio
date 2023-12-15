@@ -89,7 +89,7 @@ list-style: none;
 
 .carousel-wrapper
 {
-  height:550px; 
+  height:450px; /* prima era 550 */
   position:relative;
   width:80%;
   margin:0 auto;
@@ -104,7 +104,7 @@ list-style: none;
     height:150px;
     margin-left: 50px; /* !cambiato! */
     width:90%;
-    height:150px;
+  /*  height:150px;
     margin-left: 0px; /* !cambiato! */
   }
 }
