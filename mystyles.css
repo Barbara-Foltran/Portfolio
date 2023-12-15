@@ -326,10 +326,9 @@ list-style: none;
   transition: all 0.5s ease-in-out;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
     .carousel-caption {
-  padding-top: 150px;  /* parte nuova */
-
+  padding-top: 530px;  /* parte nuova */
     }
   }
 
@@ -340,7 +339,9 @@ list-style: none;
     }
   }
   
-
+.spazio {
+  margin-top: 100 px;
+}
 
   /*footer qui */
 /*
@@ -382,7 +383,8 @@ list-style: none;
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 2.5rem;            /* Footer height */
+    height: 2.5rem;   
+    margin-top: 30px;          /* Footer height */
   }
 
  
