@@ -317,8 +317,8 @@ list-style: none;
     bottom: -500px;
    /* left: ((100% - $carousel-caption-width) / 2); */
     z-index: 10;
-    padding-top: 500px;/* prima 550 */
-    padding-bottom: 40px;
+    padding-top: 540px;/* prima 550 */
+   /* margin-bottom: 400px; /* prima era 40 */
     text-align: center;
     font-family: 'Andada Pro', serif;
   font-style: italic;
@@ -326,11 +326,16 @@ list-style: none;
   transition: all 0.5s ease-in-out;
   }
 
-  
+  @media (max-width: 600px) {
+    .carousel-caption {
+  padding-top: 150px;  /* parte nuova */
+
+    }
+  }
 
   @media (max-width: 480px) {
     .carousel-caption {
-  padding-top: 550px;  /* prima 150 */
+  padding-top: 200px;  /* prima 150 */
 
     }
   }
