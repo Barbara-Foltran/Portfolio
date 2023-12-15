@@ -317,7 +317,7 @@ list-style: none;
     bottom: -500px;
    /* left: ((100% - $carousel-caption-width) / 2); */
     z-index: 10;
-    padding-top: 550px;
+    padding-top: 500px;/* prima 550 */
     padding-bottom: 40px;
     text-align: center;
     font-family: 'Andada Pro', serif;
@@ -330,7 +330,7 @@ list-style: none;
 
   @media (max-width: 480px) {
     .carousel-caption {
-  padding-top: 150px; 
+  padding-top: 550px;  /* prima 150 */
 
     }
   }
