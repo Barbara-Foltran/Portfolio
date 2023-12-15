@@ -89,7 +89,7 @@ list-style: none;
 
 .carousel-wrapper
 {
-  height:450px; /* prima era 550 */
+  height:500px; /* prima era 550 */
   position:relative;
   width:80%;
   margin:0 auto;
@@ -103,7 +103,7 @@ list-style: none;
     /*width:70%;
     height:150px;
     margin-left: 50px; /* !cambiato! */
-    width:90%;
+    width:80%;
   /*  height:150px;
     margin-left: 0px; /* !cambiato! */
   }
@@ -152,12 +152,12 @@ list-style: none;
   color:white;
 }
 
-/* qui sotto cambiato */
+
 
 @media (max-width: 480px) {
       .arrow, .light .arrow {
         background-size: 10px;
-   /*     background-position: 10px 50%; */
+    background-position: 10px 50%; 
       }
     }
 
