@@ -96,12 +96,16 @@ list-style: none;
   display: flex;
 }
 
+/* qui sotto cambiato */
 
 @media (max-width: 480px) {
   .carousel-wrapper{
-    width:70%;
+    /*width:70%;
     height:150px;
     margin-left: 50px; /* !cambiato! */
+    width:90%;
+    height:150px;
+    margin-left: 0px; /* !cambiato! */
   }
 }
 
@@ -148,10 +152,12 @@ list-style: none;
   color:white;
 }
 
+/* qui sotto cambiato */
+
 @media (max-width: 480px) {
       .arrow, .light .arrow {
         background-size: 10px;
-        background-position: 10px 50%;
+   /*     background-position: 10px 50%; */
       }
     }
 
@@ -349,6 +355,13 @@ list-style: none;
     font-style: normal;
     font-size: 14px;
 
+  }
+
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
   }
 
  
