@@ -326,11 +326,6 @@ list-style: none;
   transition: all 0.5s ease-in-out;
   }
 
-  @media (max-width: 800px) {
-    .carousel-caption {
-  padding-top: 530px;  /* parte nuova */
-    }
-  }
 
   @media (max-width: 480px) {
     .carousel-caption {
@@ -339,9 +334,6 @@ list-style: none;
     }
   }
   
-.spazio {
-  margin-top: 100 px;
-}
 
   /*footer qui */
 /*
@@ -374,7 +366,7 @@ list-style: none;
     text-align:right;
     font-family: 'Andada Pro', serif;
     font-style: normal;
-    font-size: 14px;
+    font-size: 12px;
 
   }
 
@@ -387,8 +379,8 @@ list-style: none;
     margin-top: 30px;          /* Footer height */
   }
 
- 
+ /*
   @media (max-width: 480px) {
     .site-footer {
       margin-top: 210px;  
-    }
+    }*/
