@@ -89,21 +89,21 @@ list-style: none;
 
 .carousel-wrapper
 {
-  height:500px; /* prima era 550 */
+  height:550px; 
   position:relative;
   width:80%;
   margin:0 auto;
   display: flex;
 }
 
-/* qui sotto cambiato */
+
 
 @media (max-width: 480px) {
   .carousel-wrapper{
-    /*width:70%;
+    width:70%;
     height:150px;
     margin-left: 50px; /* !cambiato! */
-    width:75%;
+ 
   /*  height:150px;
     margin-left: 0px; /* !cambiato! */
   }
@@ -330,7 +330,7 @@ list-style: none;
 
   @media (max-width: 480px) {
     .carousel-caption {
-  padding-top: 100px; /* prima era 150 */
+  padding-top: 150px; 
 
     }
   }
@@ -338,7 +338,7 @@ list-style: none;
 
 
   /*footer qui */
-
+/*
 
 
   .site-footer {
@@ -355,7 +355,23 @@ list-style: none;
     font-style: normal;
     font-size: 14px;
 
+  } */
+
+  .site-footer {
+    bottom: 0;
+    margin-top: 280px;
+    position: bottom;
+    left: 0;
+    width:100%;
+    padding:10px;
+    color:black;
+    text-align:right;
+    font-family: 'Andada Pro', serif;
+    font-style: normal;
+    font-size: 14px;
+
   }
+
 
   #footer {
     position: absolute;
@@ -367,5 +383,5 @@ list-style: none;
  
   @media (max-width: 480px) {
     .site-footer {
-      margin-top: 100px;   /* prima 210 */
+      margin-top: 210px;  
     }
