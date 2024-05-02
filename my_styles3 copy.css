@@ -1,0 +1,163 @@
+html,body,.container
+{ 
+  height: 100%; margin: 0; padding: 0; position: relative;
+}
+
+
+* { 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body { 
+  background:#f7f7f7;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+}
+
+.site-content {
+    flex: 1;
+  }
+
+.main-content {
+  flex: 1;
+}
+
+
+.menu,
+a { 
+  font-family: "bilo", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  color: #002592;
+  text-decoration: none;
+}
+
+
+header 
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+
+}
+
+
+.menu 
+{
+list-style: none;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.menu li a {
+  transition: all 0.3s ease;
+
+}
+
+.menu a:hover {
+  font-family: "bilo", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #002592;
+  text-decoration: none;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+
+
+.profilecontact
+{
+  font-family: "bilo", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  color: #002592;
+  text-decoration: none;
+}
+
+
+
+.textino {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 50px; 
+    text-align: center;
+    font-family: "bilo", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+    font-size: 19px;
+    line-height: 23px;
+    color: #002592;
+    text-decoration: none;
+  }
+
+  @media (max-width: 1000px) {
+      .textino {
+          margin-left: 30px;
+          margin-right: 30px;
+      }
+    }
+
+
+
+a:link, a:visited {
+  font-family: "bilo", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 30px;
+  color: #002592;
+  background-color: transparent;
+}
+
+a:hover, a:active {
+  font-family: "bilo", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 30px;
+  text-decoration: underline;
+  color: #002592;
+}
+
+
+
+  /* spazio tra frasi*/
+  .spacer {
+    height:20px;
+    }
+
+
+.site-footer {
+    bottom: 0;
+    margin-top: 280px;
+    position: bottom;
+    left: 0;
+    width:100%;
+    padding:10px;
+    color:#002592;
+    text-align:right;
+    font-family: "bilo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+
+  }
+
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+  }
