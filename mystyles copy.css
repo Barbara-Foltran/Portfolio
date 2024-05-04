@@ -105,7 +105,7 @@ list-style: none;
 
 @media (max-width: 480px) {
   .carousel-wrapper{
-    width:70%;
+    width:80%;
     height:150px;
     margin-left: 50px; /* !cambiato! */
  
@@ -122,7 +122,7 @@ list-style: none;
   bottom:0;
   left:0;
   right:0;
-  padding:25px 50px;
+  padding:23px;
   opacity:0;
   transition: all 0.5s ease-in-out;
   max-width: 100%;
@@ -322,13 +322,13 @@ list-style: none;
   /*  bottom: -500px;*/
    /*left: ((100% - $carousel-caption-width) / 2); */
     z-index: 10;
-    padding-top: 540px;/* prima 550 */
+    padding-top: 535px;/* prima 550 */
   /*  padding-left: 10%;
     padding-right: 10%;*/
    /* margin-bottom: 400px; /* prima era 40 */
     text-align: center;
-    font-size: 5 px;
-    line-height: 85%;
+    font-size: 85%;
+    line-height: 100%;
     font-family: "bilo", sans-serif;
     font-weight: 400;
     font-style: italic;
